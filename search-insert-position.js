@@ -18,3 +18,5 @@ var searchInsert = function(nums, target) {
 };
 
 console.log(searchInsert([1,3,5,6], 5));
+
+// The above console log should return 2 //
