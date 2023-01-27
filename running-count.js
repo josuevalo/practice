@@ -16,11 +16,15 @@
 
 function countSheeps(arrayOfSheep) {
   // TODO May the force be with you
-  let runningCount = 0;
-  for (let i = 0; i < arrayOfSheep.length; i++) {
-    if (arrayOfSheep[i] === true) {
-      runningCount++;
-    }
-  }
-  return runningCount;
+  // let runningCount = 0;
+  // for (let i = 0; i < arrayOfSheep.length; i++) {
+  //   if (arrayOfSheep[i] === true) {
+  //     runningCount++;
+  //   }
+  // }
+  // return runningCount;
+
+  // refactor using js method below //
+
+  return arrayOfSheeps.filter(Boolean).length;
 }
