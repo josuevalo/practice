@@ -11,9 +11,10 @@
 
 const areaOrPerimeter = function (l, w) {
   // Return your answer
-  if (l === w) {
-    return l * w;
-  } else {
-    return l + l + w + w;
-  }
+  // if (l === w) {
+  //   return l * w;
+  // } else {
+  //   return l + l + w + w;
+  // }
+  return l == w ? l * w : 2 * (l + w);
 };
