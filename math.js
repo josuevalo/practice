@@ -11,3 +11,4 @@ function arithmetic(a, b, operator){
   } else if (operator === "divide") {
     return a / b
   }
+}
